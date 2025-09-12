@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Cadastro de Clientes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="form-container">
+        <h1>CADASTRO DE CLIENTES</h1>
+        
+        
+        <form>
+            <label for="nome">Nome completo<span>*</span></label>
+            <input id="nome" type="text" required/>
+
+            <label for="email">Email <span>*</span></label>
+            <input id="email" type="email" required/>
+
+            <label for="nacionalidade">Nacionalidade</label>
+            <select id="nacionalidade" required>
+                <option value="">Selecione</option>
+                <option value="brasileiro">Brasileiro</option>
+                <option value="estrangeiro">Estrangeiro</option>
+            </select>
+
+            <button type="submit">SALVAR DADOS</button>
+        </form>
+    </div>
+</body>
+</html>
